@@ -64,7 +64,7 @@ import Link from 'next/link';
     <div className='m-5'>
         <div className='bg-primary text-white p-3 rounded-lg'>
             <h2 className='font-medium'>Credits</h2>
-            <div className='h-2 bg-[#9981f9] w-full rounded-full mt-3'>
+            <div className='h-2 bg-[#EEF7FA] w-full rounded-full mt-3'>
                 <div className='h-2 bg-white rounded-full'
                 style={{
                     width:totalUsage/maxWords>1?100+"%":(totalUsage/maxWords)*100+"%"
