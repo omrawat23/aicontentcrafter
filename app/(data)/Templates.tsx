@@ -1,4 +1,4 @@
-export default [
+const Templates = [
     // eslint-disable-next-line react-hooks/exhaustive-deps
     
     {
@@ -353,3 +353,5 @@ export default [
 
 
 ]
+
+export default Templates;

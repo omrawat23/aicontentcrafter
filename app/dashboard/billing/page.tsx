@@ -1,5 +1,6 @@
 "use client"
 import { Button } from '@/components/ui/button'
+import Script from 'next/script';
 import React, { useContext, useState } from 'react'
 import axio from 'axios'
 import { Loader2Icon } from 'lucide-react';
@@ -93,8 +94,8 @@ const Billing= ()=> {
 
   return (
     <div>
-      <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
-      <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+    <Script src="https://checkout.razorpay.com/v1/checkout.js" strategy="beforeInteractive" />
+    <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
       <h2 className='text-center font-bold text-3xl my-3'>Upgrade With Monthly Plan</h2>
  
   <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:items-center md:gap-8">
