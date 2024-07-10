@@ -35,6 +35,7 @@ function SideNav() {
     const path=usePathname();
     useEffect(()=>{
         console.log(path)
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
 
   return (

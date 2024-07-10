@@ -1,4 +1,6 @@
-export default  [
+export default [
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    
     {
         name:'Blog Title',
         desc:'An AI tool that generate blog title depends on yout blog information',

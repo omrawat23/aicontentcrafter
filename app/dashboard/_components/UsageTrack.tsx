@@ -22,11 +22,13 @@ import Link from 'next/link';
     useEffect(()=>{
         user&&GetData();
         user&&IsUserSubscribe();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     },[user]);
 
 
     useEffect(()=>{
         user&&GetData();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     },[updateCreditUsage&&user]);
 
     const GetData=async()=>{
