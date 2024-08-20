@@ -42,7 +42,7 @@ function SideNav() {
     <div className='h-screen relative p-5 shadow-sm border bg-white'>
         <div className='flex justify-center'>
           <Link href={'/'}>
-        <Image src={'/logo.svg'} alt='logo' width={120} height={100} />
+        <Image src={'/logo.svg'} alt='logo' width={60} height={100} />
         </Link>
         </div>
         <hr className='my-6 border' />
