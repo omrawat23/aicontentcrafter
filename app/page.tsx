@@ -37,7 +37,7 @@ export default function Home() {
       <footer className="bg-white text-gray-800 py-5 border-t border-gray-200 fixed bottom-0 left-0 w-full h-16">
         <div className="max-w-[85rem] mx-auto px-4">
           <div className="flex flex-col sm:flex-row justify-between items-center">
-            <p className="text-sm">© 2024 Your Company Name. All rights reserved.</p>
+            <p className="text-sm">© 2024 Om Rawat. All rights reserved.</p>
             <div className="flex space-x-4 mt-2 sm:mt-0">
               <Link href="/privacy" className="text-gray-600 hover:text-blue-600 text-sm">Privacy Policy</Link>
               <Link href="/terms" className="text-gray-600 hover:text-blue-600 text-sm">Terms of Service</Link>
